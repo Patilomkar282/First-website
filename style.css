@@ -1,0 +1,52 @@
+*{
+  margin: 0
+  
+}
+body{
+  margin: 50px 10px
+}
+
+.sign-in-form{
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 1px solid black;
+  width: 30%;
+  height: 80%;
+  padding: 10px;
+  text-align: center;
+}
+.sign-in-form h1, h4{
+  margin: 5px 0;
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.inputs input{
+  width: 60%;
+  align-items: center;
+  margin: 5px 0;
+  padding: 10px;
+}
+#btn{
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: 1px solid black;
+  background-color: red;
+  color: white;
+   border-radius: 5px;
+   font-weight: bold;
+   font-size: 15px;
+   cursor: pointer;
+}
+#btn a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+
+
